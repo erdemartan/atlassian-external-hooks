@@ -105,6 +105,12 @@
             <version>1.1.1</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>jsr311-api</artifactId>
+            <version>${jsr311.version}</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -160,6 +166,7 @@
         </plugins>
     </build>
     <properties>
+        <jsr311.version>1.1.1</jsr311.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <bitbucket.version>6.8.0</bitbucket.version>
         <bitbucket.data.version>${bitbucket.version}</bitbucket.data.version>

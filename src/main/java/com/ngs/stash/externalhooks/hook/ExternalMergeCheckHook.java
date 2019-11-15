@@ -49,7 +49,6 @@ public class ExternalMergeCheckHook implements RepositoryMergeCheck, SettingsVal
       RepositoryHookService repositoryHookService,
       SecurityService securityService)
       throws IOException {
-
     this.repositoryHookService = repositoryHookService;
 
     this.externalHookScript = getExternalHookScript(
